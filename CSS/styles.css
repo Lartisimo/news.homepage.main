@@ -6,9 +6,7 @@ body {
 @media screen and (min-width:1536px) {
     body {
         margin: 120px;
-        ;
     }
-
 }
 
 a {
@@ -73,7 +71,6 @@ a {
 
 .nav__item>a:hover {
     color: rgb(214, 121, 82);
-    font-size: 26px;
 }
 
 .collapsible--expanded .toggler {
