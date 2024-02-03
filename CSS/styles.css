@@ -3,7 +3,7 @@ body {
     margin: 20px;
 }
 
-@media screen and (min-width:1324px) {
+@media screen and (min-width:1624px) {
     body {
         margin: 120px;
     }
@@ -35,11 +35,9 @@ a {
     justify-content: space-between;
     list-style: none;
     margin: 0;
-
     padding-left: 0;
     transition-delay: 0.3s;
     width: 100%;
-
 }
 
 .collapsible__content {
@@ -53,9 +51,6 @@ a {
     max-height: 100%;
     opacity: 1;
 }
-
-
-
 
 .nav__item {
     border-bottom: 1px solid rgb(157, 144, 144);
@@ -78,7 +73,7 @@ a {
     opacity: 1;
 }
 
-@media screen and (min-width: 1324px) {
+@media screen and (min-width: 1624px) {
 
     .toggler {
         display: none;
@@ -112,13 +107,10 @@ a {
 }
 
 /* ==== main section ==== */
-
-
 .grid {
     display: grid;
     gap: 30px;
 }
-
 
 .image_1 {
     max-width: 100%;
@@ -128,7 +120,7 @@ a {
 
 .heading_1 {
     font-size: 55px;
-    max-width: 100%;
+
     grid-column: 1 / span 3;
     margin-bottom: 0;
 }
@@ -201,7 +193,7 @@ a {
 
 
 
-@media screen and (min-width:1324px) {
+@media screen and (min-width:1624px) {
     .grid__cols-3 {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -243,7 +235,7 @@ a {
     margin-top: 60px;
 }
 
-@media screen and (max-width:1324px) {
+@media screen and (max-width:1624px) {
     .grid__cols-1 {
         grid-template-columns: 1fr;
     }
@@ -303,7 +295,7 @@ a {
     margin-bottom: 0;
 }
 
-@media screen and (min-width:1324px) {
+@media screen and (min-width:1624px) {
     .flexA {
         grid-column: 1 / span 1;
     }
